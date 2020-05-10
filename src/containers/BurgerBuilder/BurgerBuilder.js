@@ -4,6 +4,7 @@ import Aux from '../../hoc/Auxiliary';
 import Burger from '../../components/Burger/Burger';
 
 class BurgerBuilder extends Component {
+    // old version
     // constructor(props) {
     //     super(props);
     //     this.state = {
@@ -11,6 +12,7 @@ class BurgerBuilder extends Component {
     //     }
     // }
 
+    // althernative version
     state = {
         ingredients : {
             salad: 0,
